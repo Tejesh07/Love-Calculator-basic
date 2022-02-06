@@ -1,0 +1,135 @@
+p{
+    background-color: pink;
+    text-align: center;
+    text-overflow: ellipsis;
+    padding-inline-end: 0cm;
+    font-weight: 200;
+    font-family: 'Love Light', cursive;
+    font-size: 3rem;
+    border-radius: 24px;
+}
+h1{
+    background-color: linear-gradient(#2b1de6, #e23011, #0ddd8d);
+    text-emphasis: none;
+    text-align: center;
+    background-color: #0ddd8d;
+    font-family: 'Lovers Quarrel', cursive;
+    font-size: 2rem;
+    border-radius: 23px;
+}
+body{
+    background-color: aqua;
+    font-family: 'Love Light', cursive;
+}
+label{
+    display: grid;
+    width: 20px;
+    font-size: large;
+    justify-content: safe;
+}
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #0d0b0d;
+    font-size: 26px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    width: 138px;
+  }
+  
+  .btn:hover {
+    background: #cf43f2;
+    background-image: -webkit-linear-gradient(top, #cf43f2, #3498db);
+    background-image: -moz-linear-gradient(top, #cf43f2, #3498db);
+    background-image: -ms-linear-gradient(top, #cf43f2, #3498db);
+    background-image: -o-linear-gradient(top, #cf43f2, #3498db);
+    background-image: linear-gradient(to bottom, #cf43f2, #3498db);
+    text-decoration: none;
+  }
+
+ 
+  @media screen and (max-width: 400px) {
+    p{
+        background-color: pink;
+        text-align: center;
+        text-overflow: ellipsis;
+        padding-inline-end: 0cm;
+        font-weight: 200;
+        font-family: 'Love Light', cursive;
+        font-size: 3rem;
+    }
+    h1{
+        background-color: linear-gradient(#2b1de6, #e23011, #0ddd8d);
+        text-emphasis: none;
+        text-align: center;
+        background-color: #0ddd8d;
+        font-family: 'Lovers Quarrel', cursive;
+        font-size: 2rem;
+    }
+    body{
+        background-color: aqua;
+        font-family: 'Love Light', cursive;
+    }
+    label{
+        display: grid;
+        width: 20px;
+        font-size: large;
+        justify-content: safe;
+    }
+    .btn {
+        background: #3498db;
+        background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+        background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+        background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+        background-image: -o-linear-gradient(top, #3498db, #2980b9);
+        background-image: linear-gradient(to bottom, #3498db, #2980b9);
+        -webkit-border-radius: 28;
+        -moz-border-radius: 28;
+        border-radius: 28px;
+        font-family: Arial;
+        color: #0d0b0d;
+        font-size: 26px;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+        width: 138px;
+      }
+      
+      .btn:hover {
+        background: #cf43f2;
+        background-image: -webkit-linear-gradient(top, #cf43f2, #3498db);
+        background-image: -moz-linear-gradient(top, #cf43f2, #3498db);
+        background-image: -ms-linear-gradient(top, #cf43f2, #3498db);
+        background-image: -o-linear-gradient(top, #cf43f2, #3498db);
+        background-image: linear-gradient(to bottom, #cf43f2, #3498db);
+        text-decoration: none;
+      }
+    
+}
+
+@media screen and (min-width: 401px) and (max-width: 720px) {
+    
+}
+
+@media screen and (min-width: 721px) and (max-width: 1280px) {
+    
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1440px) {
+    
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+    
+}
+
+@media screen and (min-width: 1921px) {
+    
+}
